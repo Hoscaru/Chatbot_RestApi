@@ -1,0 +1,34 @@
+# Clone
+```bach
+git clone
+```
+
+# Create VENV
+
+```bash
+python -m venv chatbot_venv
+```
+
+# Activate VENV
+
+# **Windows**
+```bash
+chatbot_venv/Script/Activate
+```
+# **Linux**
+```bash
+chatbot_venv/Script/activate
+```
+
+# Install dependency
+
+```bash
+pip install -r requirements.txt
+```
+
+# Run pro...
+
+```bash
+fastapi dev main.py
+unicorn main:app 
+```
